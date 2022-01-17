@@ -171,15 +171,24 @@
     padding-bottom: 34px;
     
 }
-#contact-box input, #contact-box textarea{
+form .inpt, form textarea{
     width: 100%;
     padding: 0.5rem;
     font-size: o.1rem;
 }
-#contact-box form{
+.subContainer{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+#submit{
+    font-size: 23px;
+    border-radius: 5px;
+}
+form{
     width: 40%;
 }
-#contact-box label{
+form label{
     font-size: 1.3rem;
 }
 
